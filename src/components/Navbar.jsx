@@ -32,7 +32,7 @@ const Navbar = () => {
                 to="/login"
                 className={({ isActive }) => (isActive ? styles.active : "")}
               >
-                Login
+                Entrar
               </NavLink>
             </li>
             <li>
@@ -40,7 +40,7 @@ const Navbar = () => {
                 to="/register"
                 className={({ isActive }) => (isActive ? styles.active : "")}
               >
-                Registro
+                Cadastrar
               </NavLink>
             </li>
           </>

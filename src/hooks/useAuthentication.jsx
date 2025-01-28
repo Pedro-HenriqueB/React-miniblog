@@ -68,6 +68,8 @@ export const useAuthentication = () => {
     signOut(auth);
   };
 
+  // Login
+
   useEffect(() => {
     return () => setCancelled(true);
   }, []);

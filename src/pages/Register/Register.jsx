@@ -1,6 +1,7 @@
-import { useAuthentication } from "../../hooks/useAuthentication";
+// CSS
 import styles from "./Register.module.css";
-
+// Hooks
+import { useAuthentication } from "../../hooks/useAuthentication";
 import { useState, useEffect } from "react";
 
 const Register = () => {
@@ -41,7 +42,7 @@ const Register = () => {
   return (
     <div className={styles.register}>
       <h1>Cadastre-se para postar</h1>
-      <p>crie seu usuário e compartilhe suas histórias</p>
+      <p>Crie seu usuário e compartilhe suas histórias</p>
       <form onSubmit={handleSubmit}>
         <label>
           <span>Nome: </span>
