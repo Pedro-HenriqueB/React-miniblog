@@ -11,11 +11,6 @@ A lightweight blogging platform built with React, Firebase, and React Router.
 - [Features](#features)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Available Scripts](#available-scripts)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -36,6 +31,7 @@ A lightweight blogging platform built with React, Firebase, and React Router.
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/miniblog.git
    cd miniblog
