@@ -24,11 +24,19 @@ export const useFetchDocuments = (docCollection, search = null, uid = null) => {
       if (cancelled) return;
       setLoading(true);
       const collectionRef = collection(db, docCollection);
+
       try {
         let q;
-        // busca
-        // dashboard
-        q = query(collectionRef, orderBy("createdAt", "desc"));
+        if (search) {
+          q = onSnapshot(
+            collectionRef,
+            where("tagsArray", "array-contains", search),
+            orderBy("createdAt", "desc")
+          );
+        } else {
+          q = query(collectionRef, orderBy("createdAt", "desc"));
+        }
+
         onSnapshot(q, (querySnapshot) => {
           setDocuments(
             querySnapshot.docs.map((doc) => ({
