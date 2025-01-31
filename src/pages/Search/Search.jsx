@@ -1,7 +1,7 @@
 // CSS
 import styles from "./Search.module.css";
 // Hooks
-import { useFetchDocuments } from "../../hooks/useFetchDocument";
+import { useFetchDocuments } from "../../hooks/useFetchDocuments";
 import { useQuery } from "../../hooks/useQuery";
 import { Link } from "react-router-dom";
 // Components
