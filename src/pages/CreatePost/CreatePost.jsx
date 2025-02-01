@@ -97,7 +97,7 @@ const CreatePost = () => {
             value={tags}
           />
         </label>
-        {console.log(response)};
+        {console.log(response)}
         {!response.loading && <button className="btn">Cadastrar</button>}
         {response.loading && (
           <button className="btn" disabled>
