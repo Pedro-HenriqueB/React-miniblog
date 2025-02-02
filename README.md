@@ -51,15 +51,16 @@ Enable Authentication (Email/Password method)
 
 Create a .env file in the root directory with your Firebase credentials:
 
-> [!TIP] you can use the .env-example
+> [!TIP]
+> you can use the .env-example
 
 ```
-VITE_API_KEY=your-firebase-api-key
-VITE_AUTH_DOMAIN=your-firebase-auth-domain
-VITE_PROJECT_ID=your-project-id
-VITE_STORAGE_BUCKET=your-storage-bucket
-VITE_MESSAGING_SENDER_ID=your-messaging-sender-id
-VITE_APP_ID=your-app-id
+API_KEY=your-firebase-api-key
+AUTH_DOMAIN=your-firebase-auth-domain
+PROJECT_ID=your-project-id
+STORAGE_BUCKET=your-storage-bucket
+MESSAGING_SENDER_ID=your-messaging-sender-id
+APP_ID=your-app-id
 ```
 
 ## Start development server
