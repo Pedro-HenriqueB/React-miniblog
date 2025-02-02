@@ -51,6 +51,9 @@ Enable Authentication (Email/Password method)
 
 Create a .env file in the root directory with your Firebase credentials:
 
+> [!TIP]
+> you can use the .env-example
+
 ```
 API_KEY=your-firebase-api-key
 AUTH_DOMAIN=your-firebase-auth-domain
