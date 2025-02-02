@@ -5,6 +5,7 @@ A lightweight blogging platform built with React, Firebase, and React Router.
 ![React](https://img.shields.io/badge/React-18.3.1-blue)
 ![Firebase](https://img.shields.io/badge/Firebase-11.2.0-orange)
 ![React Router](https://img.shields.io/badge/React_Router-7.1.3-lightgrey)
+![React Router](https://img.shields.io/badge/dotenv-16.4.7-white)
 
 ## Table of Contents
 
@@ -49,6 +50,8 @@ Create a Firebase project at Firebase Console
 Enable Authentication (Email/Password method)
 
 Create a .env file in the root directory with your Firebase credentials:
+
+> [!TIP] you can use the .env-example
 
 ```
 VITE_API_KEY=your-firebase-api-key
